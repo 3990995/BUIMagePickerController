@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0310B723541213009C6559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310B623541213009C6559 /* AppDelegate.m */; };
+		5B0310BA23541213009C6559 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310B923541213009C6559 /* SceneDelegate.m */; };
+		5B0310BD23541213009C6559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310BC23541213009C6559 /* ViewController.m */; };
+		5B0310C023541213009C6559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0310BE23541213009C6559 /* Main.storyboard */; };
+		5B0310C223541214009C6559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0310C123541214009C6559 /* Assets.xcassets */; };
+		5B0310C523541214009C6559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0310C323541214009C6559 /* LaunchScreen.storyboard */; };
+		5B0310C823541214009C6559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310C723541214009C6559 /* main.m */; };
+		5B0310D223541214009C6559 /* BUIMagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310D123541214009C6559 /* BUIMagePickerControllerTests.m */; };
+		5B0310DD23541214009C6559 /* BUIMagePickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310DC23541214009C6559 /* BUIMagePickerControllerUITests.m */; };
+		5B0311082354126D009C6559 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310ED2354126D009C6559 /* TZImageCropManager.m */; };
+		5B0311092354126D009C6559 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310EF2354126D009C6559 /* TZAssetCell.m */; };
+		5B03110A2354126D009C6559 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310F02354126D009C6559 /* TZVideoPlayerController.m */; };
+		5B03110B2354126D009C6559 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310F12354126D009C6559 /* TZAssetModel.m */; };
+		5B03110C2354126D009C6559 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310F22354126D009C6559 /* NSBundle+TZImagePicker.m */; };
+		5B03110D2354126D009C6559 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310F52354126D009C6559 /* UIView+Layout.m */; };
+		5B03110E2354126D009C6559 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310F62354126D009C6559 /* TZPhotoPreviewController.m */; };
+		5B03110F2354126D009C6559 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310F72354126D009C6559 /* TZProgressView.m */; };
+		5B0311102354126D009C6559 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310FA2354126D009C6559 /* TZImageManager.m */; };
+		5B0311112354126D009C6559 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310FC2354126D009C6559 /* TZPhotoPickerController.m */; };
+		5B0311122354126D009C6559 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0310FD2354126D009C6559 /* TZPhotoPreviewCell.m */; };
+		5B0311132354126D009C6559 /* BUIMagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B0311032354126D009C6559 /* BUIMagePickerController.bundle */; };
+		5B0311142354126D009C6559 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0311042354126D009C6559 /* TZImagePickerController.m */; };
+		5B0311152354126D009C6559 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0311052354126D009C6559 /* TZLocationManager.m */; };
+		5B0311162354126D009C6559 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0311062354126D009C6559 /* TZGifPhotoPreviewController.m */; };
+		D028FB10FA280924769E43EF /* Pods_BUIMagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D829C1CFB0F3379B1B1488A3 /* Pods_BUIMagePickerController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B0310CE23541214009C6559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B0310AA23541213009C6559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0310B123541213009C6559;
+			remoteInfo = BUIMagePickerController;
+		};
+		5B0310D923541214009C6559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B0310AA23541213009C6559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0310B123541213009C6559;
+			remoteInfo = BUIMagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256BECD074DB7B7A0BB8D14E /* Pods-BUIMagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUIMagePickerController.release.xcconfig"; path = "Target Support Files/Pods-BUIMagePickerController/Pods-BUIMagePickerController.release.xcconfig"; sourceTree = "<group>"; };
+		5B0310B223541213009C6559 /* BUIMagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUIMagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0310B523541213009C6559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B0310B623541213009C6559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B0310B823541213009C6559 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5B0310B923541213009C6559 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5B0310BB23541213009C6559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B0310BC23541213009C6559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B0310BF23541213009C6559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B0310C123541214009C6559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B0310C423541214009C6559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B0310C623541214009C6559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0310C723541214009C6559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B0310CD23541214009C6559 /* BUIMagePickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUIMagePickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0310D123541214009C6559 /* BUIMagePickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUIMagePickerControllerTests.m; sourceTree = "<group>"; };
+		5B0310D323541214009C6559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0310D823541214009C6559 /* BUIMagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUIMagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0310DC23541214009C6559 /* BUIMagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUIMagePickerControllerUITests.m; sourceTree = "<group>"; };
+		5B0310DE23541214009C6559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0310EB2354126D009C6559 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		5B0310EC2354126D009C6559 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		5B0310ED2354126D009C6559 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		5B0310EE2354126D009C6559 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		5B0310EF2354126D009C6559 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		5B0310F02354126D009C6559 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		5B0310F12354126D009C6559 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		5B0310F22354126D009C6559 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		5B0310F32354126D009C6559 /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		5B0310F42354126D009C6559 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		5B0310F52354126D009C6559 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		5B0310F62354126D009C6559 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		5B0310F72354126D009C6559 /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		5B0310F82354126D009C6559 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		5B0310F92354126D009C6559 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		5B0310FA2354126D009C6559 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		5B0310FB2354126D009C6559 /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		5B0310FC2354126D009C6559 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		5B0310FD2354126D009C6559 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		5B0310FE2354126D009C6559 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		5B0310FF2354126D009C6559 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		5B0311002354126D009C6559 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		5B0311012354126D009C6559 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		5B0311022354126D009C6559 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		5B0311032354126D009C6559 /* BUIMagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUIMagePickerController.bundle; sourceTree = "<group>"; };
+		5B0311042354126D009C6559 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		5B0311052354126D009C6559 /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		5B0311062354126D009C6559 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		5B0311072354126D009C6559 /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		D829C1CFB0F3379B1B1488A3 /* Pods_BUIMagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUIMagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F17EF2C6BBC8247EE0CA9C /* Pods-BUIMagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUIMagePickerController.debug.xcconfig"; path = "Target Support Files/Pods-BUIMagePickerController/Pods-BUIMagePickerController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B0310AF23541213009C6559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D028FB10FA280924769E43EF /* Pods_BUIMagePickerController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0310CA23541214009C6559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0310D523541214009C6559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07716E7BF1CBAA596C8C560D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D829C1CFB0F3379B1B1488A3 /* Pods_BUIMagePickerController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DE44B86BE78F3020CA256C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7F17EF2C6BBC8247EE0CA9C /* Pods-BUIMagePickerController.debug.xcconfig */,
+				256BECD074DB7B7A0BB8D14E /* Pods-BUIMagePickerController.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B0310A923541213009C6559 = {
+			isa = PBXGroup;
+			children = (
+				5B0310B423541213009C6559 /* BUIMagePickerController */,
+				5B0310D023541214009C6559 /* BUIMagePickerControllerTests */,
+				5B0310DB23541214009C6559 /* BUIMagePickerControllerUITests */,
+				5B0310B323541213009C6559 /* Products */,
+				2DE44B86BE78F3020CA256C5 /* Pods */,
+				07716E7BF1CBAA596C8C560D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B0310B323541213009C6559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0310B223541213009C6559 /* BUIMagePickerController.app */,
+				5B0310CD23541214009C6559 /* BUIMagePickerControllerTests.xctest */,
+				5B0310D823541214009C6559 /* BUIMagePickerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0310B423541213009C6559 /* BUIMagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				5B0310EA2354126C009C6559 /* BUIMagePickerController */,
+				5B0310B523541213009C6559 /* AppDelegate.h */,
+				5B0310B623541213009C6559 /* AppDelegate.m */,
+				5B0310B823541213009C6559 /* SceneDelegate.h */,
+				5B0310B923541213009C6559 /* SceneDelegate.m */,
+				5B0310BB23541213009C6559 /* ViewController.h */,
+				5B0310BC23541213009C6559 /* ViewController.m */,
+				5B0310BE23541213009C6559 /* Main.storyboard */,
+				5B0310C123541214009C6559 /* Assets.xcassets */,
+				5B0310C323541214009C6559 /* LaunchScreen.storyboard */,
+				5B0310C623541214009C6559 /* Info.plist */,
+				5B0310C723541214009C6559 /* main.m */,
+			);
+			path = BUIMagePickerController;
+			sourceTree = "<group>";
+		};
+		5B0310D023541214009C6559 /* BUIMagePickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B0310D123541214009C6559 /* BUIMagePickerControllerTests.m */,
+				5B0310D323541214009C6559 /* Info.plist */,
+			);
+			path = BUIMagePickerControllerTests;
+			sourceTree = "<group>";
+		};
+		5B0310DB23541214009C6559 /* BUIMagePickerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B0310DC23541214009C6559 /* BUIMagePickerControllerUITests.m */,
+				5B0310DE23541214009C6559 /* Info.plist */,
+			);
+			path = BUIMagePickerControllerUITests;
+			sourceTree = "<group>";
+		};
+		5B0310EA2354126C009C6559 /* BUIMagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				5B0310EB2354126D009C6559 /* TZPhotoPreviewCell.h */,
+				5B0310EC2354126D009C6559 /* TZPhotoPickerController.h */,
+				5B0310ED2354126D009C6559 /* TZImageCropManager.m */,
+				5B0310EE2354126D009C6559 /* TZImageManager.h */,
+				5B0310EF2354126D009C6559 /* TZAssetCell.m */,
+				5B0310F02354126D009C6559 /* TZVideoPlayerController.m */,
+				5B0310F12354126D009C6559 /* TZAssetModel.m */,
+				5B0310F22354126D009C6559 /* NSBundle+TZImagePicker.m */,
+				5B0310F32354126D009C6559 /* TZLocationManager.h */,
+				5B0310F42354126D009C6559 /* TZImagePickerController.h */,
+				5B0310F52354126D009C6559 /* UIView+Layout.m */,
+				5B0310F62354126D009C6559 /* TZPhotoPreviewController.m */,
+				5B0310F72354126D009C6559 /* TZProgressView.m */,
+				5B0310F82354126D009C6559 /* TZGifPhotoPreviewController.h */,
+				5B0310F92354126D009C6559 /* TZAssetCell.h */,
+				5B0310FA2354126D009C6559 /* TZImageManager.m */,
+				5B0310FB2354126D009C6559 /* TZImageCropManager.h */,
+				5B0310FC2354126D009C6559 /* TZPhotoPickerController.m */,
+				5B0310FD2354126D009C6559 /* TZPhotoPreviewCell.m */,
+				5B0310FE2354126D009C6559 /* NSBundle+TZImagePicker.h */,
+				5B0310FF2354126D009C6559 /* TZAssetModel.h */,
+				5B0311002354126D009C6559 /* TZVideoPlayerController.h */,
+				5B0311012354126D009C6559 /* TZPhotoPreviewController.h */,
+				5B0311022354126D009C6559 /* UIView+Layout.h */,
+				5B0311032354126D009C6559 /* BUIMagePickerController.bundle */,
+				5B0311042354126D009C6559 /* TZImagePickerController.m */,
+				5B0311052354126D009C6559 /* TZLocationManager.m */,
+				5B0311062354126D009C6559 /* TZGifPhotoPreviewController.m */,
+				5B0311072354126D009C6559 /* TZProgressView.h */,
+			);
+			path = BUIMagePickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B0310B123541213009C6559 /* BUIMagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0310E123541214009C6559 /* Build configuration list for PBXNativeTarget "BUIMagePickerController" */;
+			buildPhases = (
+				24813F8B03F14E23A495D704 /* [CP] Check Pods Manifest.lock */,
+				5B0310AE23541213009C6559 /* Sources */,
+				5B0310AF23541213009C6559 /* Frameworks */,
+				5B0310B023541213009C6559 /* Resources */,
+				6CA1832FED5AD447F0DD1D6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BUIMagePickerController;
+			productName = BUIMagePickerController;
+			productReference = 5B0310B223541213009C6559 /* BUIMagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B0310CC23541214009C6559 /* BUIMagePickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0310E423541214009C6559 /* Build configuration list for PBXNativeTarget "BUIMagePickerControllerTests" */;
+			buildPhases = (
+				5B0310C923541214009C6559 /* Sources */,
+				5B0310CA23541214009C6559 /* Frameworks */,
+				5B0310CB23541214009C6559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0310CF23541214009C6559 /* PBXTargetDependency */,
+			);
+			name = BUIMagePickerControllerTests;
+			productName = BUIMagePickerControllerTests;
+			productReference = 5B0310CD23541214009C6559 /* BUIMagePickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B0310D723541214009C6559 /* BUIMagePickerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0310E723541214009C6559 /* Build configuration list for PBXNativeTarget "BUIMagePickerControllerUITests" */;
+			buildPhases = (
+				5B0310D423541214009C6559 /* Sources */,
+				5B0310D523541214009C6559 /* Frameworks */,
+				5B0310D623541214009C6559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0310DA23541214009C6559 /* PBXTargetDependency */,
+			);
+			name = BUIMagePickerControllerUITests;
+			productName = BUIMagePickerControllerUITests;
+			productReference = 5B0310D823541214009C6559 /* BUIMagePickerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0310AA23541213009C6559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Main;
+				TargetAttributes = {
+					5B0310B123541213009C6559 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					5B0310CC23541214009C6559 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5B0310B123541213009C6559;
+					};
+					5B0310D723541214009C6559 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5B0310B123541213009C6559;
+					};
+				};
+			};
+			buildConfigurationList = 5B0310AD23541213009C6559 /* Build configuration list for PBXProject "BUIMagePickerController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B0310A923541213009C6559;
+			productRefGroup = 5B0310B323541213009C6559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0310B123541213009C6559 /* BUIMagePickerController */,
+				5B0310CC23541214009C6559 /* BUIMagePickerControllerTests */,
+				5B0310D723541214009C6559 /* BUIMagePickerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0310B023541213009C6559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0310C523541214009C6559 /* LaunchScreen.storyboard in Resources */,
+				5B0310C223541214009C6559 /* Assets.xcassets in Resources */,
+				5B0311132354126D009C6559 /* BUIMagePickerController.bundle in Resources */,
+				5B0310C023541213009C6559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0310CB23541214009C6559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0310D623541214009C6559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24813F8B03F14E23A495D704 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BUIMagePickerController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA1832FED5AD447F0DD1D6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BUIMagePickerController/Pods-BUIMagePickerController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BUIMagePickerController/Pods-BUIMagePickerController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BUIMagePickerController/Pods-BUIMagePickerController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0310AE23541213009C6559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B03110E2354126D009C6559 /* TZPhotoPreviewController.m in Sources */,
+				5B03110C2354126D009C6559 /* NSBundle+TZImagePicker.m in Sources */,
+				5B03110B2354126D009C6559 /* TZAssetModel.m in Sources */,
+				5B0311122354126D009C6559 /* TZPhotoPreviewCell.m in Sources */,
+				5B0310BD23541213009C6559 /* ViewController.m in Sources */,
+				5B0311112354126D009C6559 /* TZPhotoPickerController.m in Sources */,
+				5B03110A2354126D009C6559 /* TZVideoPlayerController.m in Sources */,
+				5B0311142354126D009C6559 /* TZImagePickerController.m in Sources */,
+				5B0311162354126D009C6559 /* TZGifPhotoPreviewController.m in Sources */,
+				5B0311152354126D009C6559 /* TZLocationManager.m in Sources */,
+				5B03110F2354126D009C6559 /* TZProgressView.m in Sources */,
+				5B0310B723541213009C6559 /* AppDelegate.m in Sources */,
+				5B0311102354126D009C6559 /* TZImageManager.m in Sources */,
+				5B0311092354126D009C6559 /* TZAssetCell.m in Sources */,
+				5B0311082354126D009C6559 /* TZImageCropManager.m in Sources */,
+				5B0310C823541214009C6559 /* main.m in Sources */,
+				5B03110D2354126D009C6559 /* UIView+Layout.m in Sources */,
+				5B0310BA23541213009C6559 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0310C923541214009C6559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0310D223541214009C6559 /* BUIMagePickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0310D423541214009C6559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0310DD23541214009C6559 /* BUIMagePickerControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B0310CF23541214009C6559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0310B123541213009C6559 /* BUIMagePickerController */;
+			targetProxy = 5B0310CE23541214009C6559 /* PBXContainerItemProxy */;
+		};
+		5B0310DA23541214009C6559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0310B123541213009C6559 /* BUIMagePickerController */;
+			targetProxy = 5B0310D923541214009C6559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B0310BE23541213009C6559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0310BF23541213009C6559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B0310C323541214009C6559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0310C423541214009C6559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B0310DF23541214009C6559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B0310E023541214009C6559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0310E223541214009C6559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F17EF2C6BBC8247EE0CA9C /* Pods-BUIMagePickerController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B8YUHABUQ;
+				INFOPLIST_FILE = BUIMagePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios.TZImagePickerController.www.BUIMagePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B0310E323541214009C6559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256BECD074DB7B7A0BB8D14E /* Pods-BUIMagePickerController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B8YUHABUQ;
+				INFOPLIST_FILE = BUIMagePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios.TZImagePickerController.www.BUIMagePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B0310E523541214009C6559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B8YUHABUQ;
+				INFOPLIST_FILE = BUIMagePickerControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios.TZImagePickerController.www.BUIMagePickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BUIMagePickerController.app/BUIMagePickerController";
+			};
+			name = Debug;
+		};
+		5B0310E623541214009C6559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B8YUHABUQ;
+				INFOPLIST_FILE = BUIMagePickerControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios.TZImagePickerController.www.BUIMagePickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BUIMagePickerController.app/BUIMagePickerController";
+			};
+			name = Release;
+		};
+		5B0310E823541214009C6559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B8YUHABUQ;
+				INFOPLIST_FILE = BUIMagePickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios.TZImagePickerController.www.BUIMagePickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BUIMagePickerController;
+			};
+			name = Debug;
+		};
+		5B0310E923541214009C6559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B8YUHABUQ;
+				INFOPLIST_FILE = BUIMagePickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios.TZImagePickerController.www.BUIMagePickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BUIMagePickerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0310AD23541213009C6559 /* Build configuration list for PBXProject "BUIMagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0310DF23541214009C6559 /* Debug */,
+				5B0310E023541214009C6559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0310E123541214009C6559 /* Build configuration list for PBXNativeTarget "BUIMagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0310E223541214009C6559 /* Debug */,
+				5B0310E323541214009C6559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0310E423541214009C6559 /* Build configuration list for PBXNativeTarget "BUIMagePickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0310E523541214009C6559 /* Debug */,
+				5B0310E623541214009C6559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0310E723541214009C6559 /* Build configuration list for PBXNativeTarget "BUIMagePickerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0310E823541214009C6559 /* Debug */,
+				5B0310E923541214009C6559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0310AA23541213009C6559 /* Project object */;
+}
