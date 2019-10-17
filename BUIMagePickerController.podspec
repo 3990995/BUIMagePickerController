@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "BUIMagePickerController"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of BUIMagePickerController."
   spec.homepage     = "http://EXAMPLE/BUIMagePickerController"
   spec.license      = "MIT"
