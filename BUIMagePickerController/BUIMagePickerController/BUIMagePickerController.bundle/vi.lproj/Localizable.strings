@@ -21,3 +21,7 @@
 "Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "Allow %@ to access your album in \"Settings -> Privacy -> Photos\"";
 "Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"";
 "brandu_album_last_view_txt" = "Last view";
+"brandu_selectphoto_max1" = "Please select no more than ";
+"brandu_selectphoto_max2" = " photos";
+"brandu_selectphoto_max3" = "You can only select ";
+"brandu_selectphoto_max4" = " photo";
